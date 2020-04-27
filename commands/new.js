@@ -1,6 +1,6 @@
 exports.run = (client, message, args) => {
 
-    const playchannel = client.channels.cache.get('704146440439726140');
+    const playchannel = client.channels.cache.get('704083835113046058');
 
     const filter = m => m.author.id === message.author.id;
     message.channel.send("What is the stock's ticker symbol?")
